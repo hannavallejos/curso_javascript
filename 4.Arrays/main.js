@@ -21,16 +21,16 @@ function verPacientesAusentes(){
     };
     
 };
-
-function agregarPaciente(){
+  function agregarPaciente(){
     const nuevoPaciente = prompt("Nombre del paciente");
     const listaDeAsistencia = confirm("se encuentra en el consultorio?");
-    if(listaDeAsistencia){
+if(listaDeAsistencia){
         pacientesPresentes.push(nuevoPaciente);
         alert("ha sido registrado en el sistema como presente el/la paciente " + nuevoPaciente);
     }else{
         pacientesAusentes.push(nuevoPaciente);
         alert("ha sido registrado en el sistema como ausente el/la paciente " + nuevoPaciente);
+       
 
     };
 
