@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+:root{
+    --colorLetras : #554632;
+    --colorFondo:#f9f4e3;
+}
+body{
+    background-color: var(--colorFondo);
+    margin-bottom: 3rem;
+}
+.divPrincipalPlatos{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.divPlato{
+    width: 20%;
+    border: 5px solid var(--colorLetras);
+    border-radius: 1rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 5px 5px 5px var(--colorLetras);
+}
+.imgPlato{
+    width: 100%;
+    border-radius: 1rem;
+}
+.nombrePlato{
+    color: var(--colorLetras);
+}
+.divSelect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.SelectCategorias{
+    font-size: 1.3rem;
+    padding: 0.2rem 1rem;
+    background-color: var(--colorFondo);
+    color: var(--colorLetras);
+    font-weight: bold;
+    border: 3px solid var(--colorLetras);
+    border-radius: 0.5rem;
+}
